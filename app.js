@@ -110,3 +110,12 @@ if (grade === "A") {
 } else {
   console.log("Try Next Year");
 }
+
+//-------------------------Loops-------------------------
+
+//------------------------- For loop-------------------------
+
+for (let i = 1; i < 11; i++) {
+  console.log("Loops on runing", i);
+}
+
