@@ -1,9 +1,9 @@
 //-------------------------Variables-------------------------
 
 let myName = "Areeb"; // Declaring a variable named 'myName' and assigning the value "Areeb"
-let age = 17; // Declaring a variable named 'age' and assigning the value 17
+let ageVariable = 17; // Declaring a variable named 'age' and assigning the value 17
 console.log(myName); // Printing my name value
-console.log(age); // Printing my age value
+console.log(ageVariable); // Printing my age value
 
 //-------------------------Data Types-------------------------
 
@@ -84,3 +84,29 @@ console.log(divisionValue);
 // Division Assignment (/=): Divides the variable by the right operand and assigns the result back. a /= 4 (equivalent to a = a / 4).
 
 // Modulus Assignment (%=): Assigns the remainder after dividing the variable by the right operand. b %= 7 (equivalent to b = b % 7).
+
+//-------------------------Conditional Statements-------------------------
+
+//-------------------------if-else-------------------------
+
+const age = 17;
+let eligible = "You are eligible to vote"
+let notEligible = "You are not eligible to vote"
+if (age >= 18) {
+  console.log(eligible);
+} else {
+  console.log(notEligible);
+}
+
+//-------------------------if-else-------------------------
+
+let grade = "C"
+if (grade === "A") {
+  console.log("You got A grade!");
+} else if (grade === "B") {
+  console.log("You got B grade!")
+} else if (grade === "C") {
+  console.log("You got C grade!");
+} else {
+  console.log("Try Next Year");
+}
