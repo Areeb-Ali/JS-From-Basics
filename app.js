@@ -90,8 +90,8 @@ console.log(divisionValue);
 //-------------------------if-else-------------------------
 
 const age = 17;
-let eligible = "You are eligible to vote"
-let notEligible = "You are not eligible to vote"
+let eligible = "You are eligible to vote";
+let notEligible = "You are not eligible to vote";
 if (age >= 18) {
   console.log(eligible);
 } else {
@@ -100,11 +100,11 @@ if (age >= 18) {
 
 //-------------------------if-else-------------------------
 
-let grade = "C"
+let grade = "C";
 if (grade === "A") {
   console.log("You got A grade!");
 } else if (grade === "B") {
-  console.log("You got B grade!")
+  console.log("You got B grade!");
 } else if (grade === "C") {
   console.log("You got C grade!");
 } else {
@@ -119,3 +119,8 @@ for (let i = 1; i < 11; i++) {
   console.log("Loops on runing", i);
 }
 
+//------------------------- Build small projects ---------------------------
+
+// 1. Quiz App
+// link of my repo of JavaScript Quiz App
+// "https://github.com/Areeb-Ali/Quiz-App"
